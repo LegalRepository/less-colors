@@ -19,7 +19,7 @@ npm start
 
 ## Reusability
 This library focuses on reusability of variables and dependencies. The list of colors and the associated set is provided as below:
-```css
+```less
 // Variables
 @aqua:  #7FDBFF;
 @blue:  #0074D9;
@@ -62,7 +62,7 @@ This library focuses on reusability of variables and dependencies. The list of c
 As you can see from above the set is dependent directly on the variables of each color.
 
 Then we can simply use a loop to create the required classes and/or objects as required:
-```css
+```less
 each(@colors, {
   .@{key} { // The name of the object as defined by the key
     some-rule: @value; // The associated value for the rule
