@@ -1,5 +1,5 @@
-# LESS Implementation
-This is an implementation of the amazing [colors](https://github.com/mrmrs/colors) package by murmurs. The project was designed by them to create a better set of default web colors that are visually more appealing and better suited for UX. This is an attempt to simplify the creation and management of the colors as a utility in your next project. Each color will be assigned a variable, along with a set that can be used to make any HTML or CSS object.
+# LESS Colors
+This is a less implementation of the amazing [colors](https://github.com/mrmrs/colors) package by murmurs. The project was designed by them to create a better set of default web colors that are visually more appealing and better suited for UX. This is an attempt to simplify the creation and management of the colors as a utility in your next project. Each color will be assigned a variable, along with a set that can be used to make any HTML or CSS object.
 
 ## Details
 The project uses the following libraries/utilities:
